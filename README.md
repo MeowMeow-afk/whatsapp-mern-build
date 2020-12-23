@@ -1,4 +1,4 @@
-#WhatsApp Mern Build
+# WhatsApp Mern Build
 
 Here i have made a whatsapp mern clone with backsuppor of express.js running on node.js and
 and front-end with react.js
@@ -6,11 +6,11 @@ and front-end with react.js
 The database that i have used here is mongodb-atlas
 and to make mongodb realtime ,have made use of a service called Pusher
 
-##Pusher
+## Pusher
 
 to install pusher on front-end
 
--npm i pusher-js
+- npm i pusher-js
 
 to install pusher on back-end
 
