@@ -18,9 +18,9 @@ const connectionURL = keys.connectionURL;
 //pusher config config
 // pusher is what make our mongodb realtime
 const pusher = new Pusher({
-  appId: "1127719",
-  key: "c01b5b35e2881e2e4672",
-  secret: "ebddf441cb7809fb9e00",
+  appId: keys.appId,
+  key: keys.key,
+  secret: keys.secret,
   cluster: "ap2",
   useTLS: true,
 });
