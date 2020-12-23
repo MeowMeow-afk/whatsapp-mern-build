@@ -1,0 +1,27 @@
+.chatheader {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  border-bottom: 0.1rem solid lightgray;
+}
+.chatheader__middle {
+  flex: 1;
+  margin-left: 0.5rem;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.chatheader__middle > h2 {
+  font-size: 1.8rem;
+}
+.chatheader__icons {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+}
+.chatheader__btn {
+  font-size: 2.3rem !important;
+}

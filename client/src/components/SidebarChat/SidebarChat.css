@@ -1,0 +1,15 @@
+.sidebarChat {
+  display: flex;
+  gap: 1.7rem;
+  align-items: center;
+  padding: 2rem;
+  padding-left: 1rem;
+}
+.sidebarChat:hover {
+  background-color: #ebebeb;
+}
+.sidebarChat__info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
